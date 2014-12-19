@@ -1,5 +1,8 @@
-# Playground for llvm stuff.
+== Playground for llvm stuff.
 
 Following [1] as a guide we can play around here with some llvm assembler.
 
+Reference manual for LLVM ops [2].
+
 [1]: https://idea.popcount.org/2013-07-24-ir-is-better-than-assembly/
+[2]: http://llvm.org/docs/LangRef.html
