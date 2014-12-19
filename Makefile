@@ -16,10 +16,10 @@ clean :
 	clang -o $@ -flto -S -O $^
 
 %.bc : %.ll
-	llvm-as $<
+	llvm-as -f $^
 
 %.s : %.bc
-	llc $^
+	llc -f $^
 
 %.o : %.s
 	as -o $@ $^
